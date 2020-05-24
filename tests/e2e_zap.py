@@ -6,7 +6,7 @@ from os import getcwd
 
 # Test Automation Part of the Script
 
-target_url = 'http://localhost:5050'
+target_url = 'http://ec2-3-250-123-166.eu-west-1.compute.amazonaws.com:5050'
 proxies = {
     'http': 'http://127.0.0.1:8090',
     'https': 'http://127.0.0.1:8090',
